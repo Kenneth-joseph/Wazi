@@ -42,7 +42,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'host' => '127.0.0.1',
-            'port' => env('DB_PORT', '3306'),
+            'port' => env('DB_PORT', '33060'),
             'database' => 'wazi_db',
             'username' => 'homestead',
             'password' => 'secret',
