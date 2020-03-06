@@ -1,7 +1,7 @@
 @extends('layouts.base')
 @section('content')
     <h3>{{$title}}</h3>
-       <p>let me have the dashboard</p>
+       <p>Therapist dashboard</p>
        <div class="header">
     <div class="logo">
         <i class="fa fa-tachometer"></i>
@@ -19,25 +19,25 @@
             <li>
                 <a href="#">
                     <span><i class="fa fa-user"></i></span>
-                    <span>Users</span>
+                    <span>TEHERAPIST</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <span><i class="fa fa-envelope"></i></span>
-                    <span>Messages</span>
+                    <span>Availability</span>
                 </a>
             </li>
             <li class="active">
                 <a href="#">
                     <span><i class="fa fa-bar-chart"></i></span>
-                    <span>Analytics</span>
+                    <span>Create Content</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <span><i class="fa fa-credit-card-alt"></i></span>
-                    <span>Payments</span>
+                    <span>Create Assessments</span>
                 </a>
             </li>
         </ul>
