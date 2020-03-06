@@ -20,3 +20,7 @@ Route::get('/availability', 'PagesController@available');
 Route::get('/create', 'PagesController@create_content');
 // Route::get('create', 'PagesController@create_content');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
