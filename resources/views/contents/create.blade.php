@@ -1,8 +1,6 @@
 @extends('layouts.base')
 
-@section('title', $title)
-
-@section('body')
+@section('content')
     <div class="row">
         <div class="col-md-4" style="">
             <!-- Card -->
