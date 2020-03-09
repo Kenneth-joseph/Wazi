@@ -127,6 +127,9 @@
 </div>
 {{-- end table --}}
 
+
+
+
 {{-- MODAL SECTION --}}
 <div class="modal fade" id="orangeModalSubscription" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-notify modal-warning" role="document">
@@ -134,7 +137,7 @@
         <div class="modal-content">
             <!--Header-->
             <div class="modal-header text-center" style="color:black;">
-                <h4 class="modal-title white-text w-100 font-weight-bold py-2">Add  Content</h4>
+                <h4 class="modal-title white-text w-100 font-weight-bold py-2">Add Video Content</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" class="white-text">&times;</span>
                 </button>
@@ -149,22 +152,26 @@
             
                     {{-- <!-- Title --> --}}
                     {{-- <h5 class="card-header info-color white-text text-center py-4">
-                        <strong>Add Text Content</strong>
+                        <strong>Add Video Content</strong>
                     </h5> --}}
                     <h4 class="card-title"><a></a></h4>
                     {{-- <!-- Text --> --}}
                     <div class="card-text">
-                        <form class="text-center" style="color: #757575;" action="text" method="POST">
+                        <form class="text-center" style="color: #757575;" action="video" method="POST">
                             {{-- field1 --}}
                             {{-- <input type="hidden" name="_token" value="{{ csrf_token() }}"> --}}
                             <div class="md-form">
-                                <input type="text" id="InputTextField" name="TextTitle" class="form-control">
-                                <label for="InputTextField">Text  Title</label>
+                                <input type="text" id="inputVedioName" name="videoName" class="form-control">
+                                <label for="inputVideoName">Video Name</label>
                             </div>
             
                             <div class="md-form">
-                                <input type="text" id="inputDescription" name="description" class="form-control">
-                                <label for="inputDescription">Breif Description</label>
+                                <input type="text" id="inputVideoDescription" name="description" class="form-control">
+                                <label for="inputVideoDescription">VideoDescription</label>
+                            </div>
+            
+                            <div class="md-form" style="text-align:left;">
+                                <input type="file" id="inputVideo" name="video">
                             </div>
                             <div class="modal-footer justify-content-center">
                                 {{-- <!-- Button --> --}}
