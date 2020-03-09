@@ -30,3 +30,6 @@ Route::get('/vedio','PagesController@myvedio');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
