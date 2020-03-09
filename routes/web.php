@@ -17,12 +17,14 @@
 // });
 Route::get('/', 'PagesController@index');
 Route::get('/availability', 'PagesController@available');
-Route::get('/create', 'PagesController@create_content');
+Route::get('/createc', 'PagesController@create_content');
 Route::get('/images','PagesController@imgpic');
 Route::get('/text','PagesController@mytext');
 Route::get('/vedio','PagesController@myvedio');
 
+// use App\Http\Controllers\contentsController;
 
+// Route::get('/create','contentsController@create_content');  //controller styles for urls and routes
 
 
 Auth::routes();

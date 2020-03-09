@@ -12,7 +12,7 @@ public function available(){
 }
 #craete page
 public function create_content(){
-    return view('pages.create');
+    return view('pages.createc');
 
 }
 
