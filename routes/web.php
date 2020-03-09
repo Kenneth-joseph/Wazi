@@ -24,3 +24,6 @@ Route::get('/create', 'PagesController@create_content');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+

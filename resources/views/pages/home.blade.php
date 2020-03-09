@@ -19,11 +19,11 @@
             <li>
                 <a href="#">
                     <span><i class="fa fa-user"></i></span>
-                    <span>TEHERAPIST</span>
+                    <span>THERAPIST</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#>
                     <span><i class="fa fa-envelope"></i></span>
                     <span>Availability</span>
                 </a>
