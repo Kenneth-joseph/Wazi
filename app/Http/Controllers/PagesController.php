@@ -13,7 +13,21 @@ public function available(){
 #craete page
 public function create_content(){
     return view('pages.createc');
+
 }
+
+#craete page
+public function imgpic(){
+    return view('pages.image');
+}
+#craete page
+public function mytext(){
+    return view('pages.text');
+}
+public function myvedio(){
+    return view('pages.vedio');
+}
+
 # home page
 public function index(){
     $title = "Here Am home";
