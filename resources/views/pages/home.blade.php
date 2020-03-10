@@ -1,6 +1,6 @@
 @extends('layouts.base')
 @section('content')
     <h3>{{$title}}</h3>
-       <p>Therapist dashboard</p>
+       <p>Therapist dashboard hello me</p>
      
 @endsection
